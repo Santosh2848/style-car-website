@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    color: gold;
+}
+
+#topLeftSection {
+    padding: 30px;
+    margin-top: 10px;
+
+}
+
+.firstSection {
+    background-color: rgb(0, 0, 0);
+    padding:0 20px ;
+    color: white;
+
+}
+
+.primaryHeading {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.secondHeading {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center  ;
+}
+
+.profileImg{
+    height: 230px;
+    width: 230px; 
+    border-radius: 50%;
+    object-fit:cover;
+    margin-bottom: 40px;
+}
+
+.topLeftSectionWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.firstSection{
+    height:fit-content;
+} 
+
+.carImg {
+    width: 100%;
+    height: 450px;
+    margin-top: 55px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.carNameTypedJs {
+    color:red;
+    margin: 20px 20px;   
+}
+
+.carNameTypedJs span {
+    font-weight: 500;
+}
+
+/* crousel  */
+.crouselSection {
+    margin: 30px auto;  
+    width: 60%;
+}
+/* crousel  */
+.crouselSection h1{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.carousel-inner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+ }
+
+.carousel-inner img {
+    width: 70%;
+    height: 560px;
+    display: block;
+    margin: auto;
+    border-radius:12px ;
+    object-fit: cover;
+
+}
+
+/* pricing section  */
+
+#PricingSection {
+    padding-top: 10px;
+    background-color: black;
+    height:fit-content;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#PricingSection .row {
+    width: 95%;
+    margin: auto;
+}
+
+#PricingSection .card {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: rgb(89, 86, 86);
+    color: white;
+}
+
+#PricingSection .card h5 {
+    margin-bottom:10px ;
+}
+
+#PricingSection .card img {
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#PricingSection h1 {
+    margin:40px 0 ;
+    text-align: center;
+}
+
+/* trusted company   */
+#trustedCompany {
+    height:fit-content;
+    padding: 40px 0;
+}
+
+#trustedCompany h1 {
+    margin-top: 20px ;
+    text-align: center;
+}
+.trustedComWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;  
+    padding: 50px 0;
+
+}
+
+.trustedComWrapper img {
+    height: 100px;
+    margin-right: 20px;
+    /* width: 11   0px; */
+}
+
+#contactUsContainer {
+    margin:40px  auto;
+    width: 70%;
+    font-weight: 500;
+}
+

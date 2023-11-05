@@ -1,0 +1,55 @@
+@media screen and (max-width: 780px) {
+
+    .firstSection {
+        height:fit-content;
+        text-align: center;
+    }
+
+    .carImg {
+        width: 100%;
+        height: 200px;
+        margin-top: -10px;
+    }
+
+    .primaryHeading {
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .carNameTypedJs {
+        color: red;
+        font-size: 15px;
+    }
+
+    /* crousel  */
+    .carousel-inner img {
+        width: 20%;
+        height: 500px;
+        border-radius: 8px;
+
+    }
+
+    /* pricing section  */
+    #PricingSection {
+        /* height: 268vh; */
+        height: fit-content ;
+    }
+
+    /* trusted company   */
+    #trustedCompany {
+        height: fit-content;
+    }
+
+    .companyLogo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        margin-top: 20px;
+    }
+
+
+}

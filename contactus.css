@@ -1,0 +1,10 @@
+.contactusWrapper {
+    background-image: url("https://avatars.mds.yandex.net/i?id=d1d909cfb0829592fc2f3922aaa7397b3026db05-4078102-images-thumbs&n=13");
+    height: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 40px;
+    color: white;
+    font-weight: bolder;
+}
